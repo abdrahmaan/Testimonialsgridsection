@@ -20,7 +20,10 @@ section {
     padding: 40px;
     height: 100vh;
     background-color: #edf2f8;
+    position: relative;
 }
+
+
 
 .grid-area{
     height: 100%;
@@ -269,7 +272,9 @@ height: 5%;
 
 .welcome{
     justify-content: flex-start;
-    padding-top: 300px;
+    align-items: center;
+    padding-top: 200px;
+    /* text-align: center; */
 }
 .welcome h2{
 font-size: 30px;
@@ -277,6 +282,7 @@ color: rgb(228, 212, 212);
 text-transform: uppercase;
 transform: translateY(-100vh);
 transition: 0.7s ease-in-out;
+text-align: center;
 }
 
 .welcome p{
